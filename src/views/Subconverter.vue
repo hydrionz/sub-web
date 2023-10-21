@@ -252,7 +252,12 @@ export default {
           ssd: "ssd",
           v2ray: "v2ray"
         },
-        backendOptions: [{value: "http://127.0.0.1:25500/sub?"}, {value: "https://converter.imzz.workers.dev/sub?"}],
+        backendOptions: [
+          {value: "http://127.0.0.1:25500/sub?"},
+          {value: "https://converter.imzz.workers.dev/sub?"},
+          {value: "https://sub.xeton.dev/sub?"},
+          {value: "https://api.dler.io/sub?"}
+        ],
         remoteConfig: [
           {
             label: "ACL4SSR",
